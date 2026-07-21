@@ -1,4 +1,4 @@
-FROM node:24-alpine-latest
+FROM node:24
 
 ENV MONGODB_CONNECTION_PROTOCOL mongodb+srv
 ENV MONGODB_DB_NAME testDB
